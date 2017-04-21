@@ -71,6 +71,8 @@ chart.Posn(Portfolio = strat.name, Symbol = cpair)
 # save the strategy name so the scripts can file the results
 writeLines(strat.name, "stratName.txt")
 writeLines(notify.email, "email.txt")
+writeLines(as.character(ts$Net.Trading.PL), "rankperf.txt")
+writelines(capture.output(print(ts)), "results.txt")
 
 # for now, just dump the results
 # we should build a KPI structure here and write that for pickup by the scripts
