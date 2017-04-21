@@ -14,7 +14,9 @@
 
 
 # set up your trading parameters
-strat.name <- "luxor" # give your strategy a nice name
+strat.name <- "luxor"              # give your strategy a nice name
+notify.email <- "wayneco@dades.ca" # where should the results email go?
+
 #
 # all of the following have been moved to Globals but are still
 # available for use in strategy
